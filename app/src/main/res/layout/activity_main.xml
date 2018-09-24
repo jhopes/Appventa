@@ -53,16 +53,10 @@
                 android:text="SAVE" />
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btnedit"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="10dp"
-                android:text="EDIT" />
-
-            <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnlist"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="listarDialog"
                 android:text="LIST" />
         </LinearLayout>
     </LinearLayout>
