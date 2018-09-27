@@ -1,5 +1,7 @@
 package presenter;
 
-public class DialogListProducto {
+import androidx.fragment.app.DialogFragment;
+
+public class DialogListProducto extends DialogFragment{
 
 }
