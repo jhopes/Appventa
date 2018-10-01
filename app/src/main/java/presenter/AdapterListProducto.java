@@ -37,4 +37,5 @@ public class AdapterListProducto extends ArrayAdapter {
         desc.setText(data.get(position).getDescripcion());
         return (View) item;
     }
+
 }
